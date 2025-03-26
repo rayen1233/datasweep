@@ -272,7 +272,7 @@ class ModernFileManager:
         lf.pack(pady=10)
         
         try:
-            i = Image.open("dossier-technique/source/logo.png")
+            i = Image.open("./source/logo.png")
             i = i.resize((500, 100), Image.Resampling.LANCZOS)
             p = ImageTk.PhotoImage(i)
             ll = ttk.Label(lf, image=p)
